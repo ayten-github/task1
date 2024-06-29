@@ -1,0 +1,26 @@
+namespace datatype
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int i = 100;
+            if (i < 65)
+            {
+                Console.WriteLine("Kesildin");
+            }
+            else if (i >= 65 && i < 85)
+            {
+                Console.WriteLine("Adi diplom");
+            }
+            else if (i >= 85 && i < 95)
+            {
+                Console.WriteLine("seref diplomu");
+            }
+            else
+            { 
+                Console.WriteLine("yuksek sheref diplomu");
+            }
+        }
+    }
+}
